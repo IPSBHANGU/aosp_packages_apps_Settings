@@ -61,6 +61,11 @@
                 android:title="@string/device_feedback" />
 
         <!-- Device hardware model -->
+	<Preference android:key="device_name"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/device_info"
+                android:summary="@string/summary_placeholder"/>
+
         <Preference
                 android:key="device_model"
                 android:title="@string/model_info"
